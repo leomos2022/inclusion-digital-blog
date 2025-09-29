@@ -81,95 +81,117 @@ const modulos: Modulo[] = [
   {
     id: 'modulo2',
     titulo: 'Módulo 2 - Proyecto Inclusión Digital',
-    subtitulo: 'Visibilizando la brecha digital en nuestra comunidad',
-    descripcion: 'Análisis profundo de la brecha digital en Colombia. Incluye datos de DANE y MinTIC, video explicativo y análisis local, nacional e internacional.',
+    subtitulo: 'Construyendo puentes tecnológicos en nuestras comunidades',
+    descripcion: 'Proyecto de responsabilidad social enfocado en reducir la brecha digital familiar y comunitaria a través de educación tecnológica inclusiva.',
     icono: '📊',
     color: 'from-emerald-500 to-teal-600',
-    duracion: '25 min lectura',
+    duracion: '30 min lectura',
     secciones: [
       { 
-        titulo: 'Presentación del Proyecto', 
-        contenido: 'El objetivo de este blog es visibilizar la brecha digital que afecta a nuestra comunidad, compartir recursos educativos accesibles y proponer soluciones innovadoras que fomenten la inclusión digital. A través de este espacio, buscamos crear conciencia sobre las desigualdades tecnológicas y empoderar a las personas con herramientas y conocimientos que les permitan participar activamente en la sociedad digital.',
+        titulo: 'Título del Proyecto', 
+        contenido: '"INCLUSIÓN DIGITAL FAMILIAR: CONSTRUYENDO PUENTES TECNOLÓGICOS PARA REDUCIR LA BRECHA DIGITAL EN COMUNIDADES VULNERABLES DE COLOMBIA"\n\nProyecto de Responsabilidad Social\nUniversidad Uniminuto - Ingeniería de Software\nAutor: Leonardo Mosquera Rodríguez\nAño: 2024',
         imagen: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
         lado: 'derecha'
       },
       { 
+        titulo: 'Planteamiento de la Problemática y Contexto', 
+        contenido: 'Colombia enfrenta una marcada brecha digital que afecta desproporcionadamente a las comunidades vulnerables, especialmente en zonas rurales y periféricas urbanas. Según el DANE (2022), solo el 56.5% de los hogares colombianos tiene acceso a internet, y esta cifra disminuye al 23.8% en áreas rurales.\n\nLa problemática se manifiesta en múltiples dimensiones:\n\n• ACCESO FÍSICO: Limitada infraestructura tecnológica y conectividad\n• ACCESO ECONÓMICO: Altos costos de dispositivos y servicios de internet\n• HABILIDADES DIGITALES: Falta de competencias para usar efectivamente la tecnología\n• CONTENIDOS RELEVANTES: Escasez de recursos digitales culturalmente pertinentes\n\nEsta situación perpetúa desigualdades socioeconómicas, limita oportunidades educativas y laborales, y excluye a familias enteras de los beneficios de la sociedad digital. La pandemia COVID-19 evidenció dramáticamente estas desigualdades, especialmente en el acceso a educación virtual y servicios gubernamentales digitales.',
+        imagen: 'https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'izquierda'
+      },
+      { 
+        titulo: 'Objetivos del Proyecto', 
+        contenido: 'OBJETIVO GENERAL:\nDesarrollar e implementar un programa de inclusión digital familiar que fortalezca las competencias tecnológicas de comunidades vulnerables, promoviendo el acceso equitativo a las tecnologías de la información y comunicación como herramienta de desarrollo social.\n\nOBJETIVOS ESPECÍFICOS:\n\n1. DIAGNÓSTICO: Identificar las necesidades específicas de acceso y uso de tecnologías en las familias participantes mediante evaluaciones personalizadas.\n\n2. CAPACITACIÓN: Desarrollar talleres de alfabetización digital adaptados a diferentes grupos etarios, enfocados en habilidades básicas y avanzadas de uso de dispositivos e internet.\n\n3. ACCESO: Facilitar el acceso a dispositivos tecnológicos y conectividad a internet mediante alianzas estratégicas con organizaciones públicas y privadas.\n\n4. SOSTENIBILIDAD: Crear redes de apoyo comunitario que permitan la continuidad del programa y la multiplicación de conocimientos.\n\n5. EVALUACIÓN: Medir el impacto del proyecto en la reducción de la brecha digital y el mejoramiento de la calidad de vida de las familias participantes.',
+        imagen: 'https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'derecha'
+      },
+      { 
+        titulo: 'Justificación', 
+        contenido: 'RELEVANCIA SOCIAL:\nLa inclusión digital es fundamental para garantizar la equidad social en el siglo XXI. Este proyecto se justifica desde múltiples perspectivas:\n\n• DERECHOS HUMANOS: El acceso a la información y las comunicaciones es reconocido como un derecho humano fundamental por la ONU.\n\n• DESARROLLO SOSTENIBLE: Contribuye directamente a los ODS 4 (Educación de Calidad), 8 (Trabajo Decente), 10 (Reducción de Desigualdades) y 16 (Paz y Justicia).\n\n• IMPACTO ECONÓMICO: Las familias digitalmente incluidas tienen mayor acceso a oportunidades laborales, educativas y de emprendimiento.\n\n• COHESIÓN SOCIAL: Reduce el aislamiento y fortalece los vínculos comunitarios a través de redes digitales.\n\n• RESPONSABILIDAD UNIVERSITARIA: Como futuros ingenieros de software, tenemos la responsabilidad ética de usar nuestros conocimientos para generar impacto social positivo.\n\nRELEVANCIA ACADÉMICA:\nEste proyecto integra conocimientos técnicos de ingeniería de software con competencias sociales, desarrollando profesionales integrales comprometidos con la transformación social. Permite aplicar metodologías de investigación-acción participativa y evaluar el impacto real de las intervenciones tecnológicas en comunidades vulnerables.',
+        imagen: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'izquierda'
+      },
+      { 
         titulo: 'Video Explicativo del Proyecto', 
-        contenido: 'El video presenta los objetivos principales del proyecto de inclusión digital, destacando la importancia de construir puentes tecnológicos para cerrar la brecha digital en nuestra comunidad.',
+        contenido: 'Presentación audiovisual del proyecto de inclusión digital familiar, destacando los objetivos, metodología y el impacto esperado en las comunidades participantes.',
         lado: 'derecha',
         tieneVideo: true,
         videoUrl: 'https://www.youtube.com/embed/W0b_iJPu-U4'
       },
       { 
         titulo: 'Análisis a Nivel Nacional (DANE y MinTIC)', 
-        contenido: 'Según el reporte "Índice de Brecha Digital" de 2022, Colombia ha logrado avances significativos en conectividad general, especialmente con la expansión de redes 4G y la llegada del 5G a algunas ciudades. Sin embargo, la brecha persiste entre el campo y la ciudad. El Índice de Brecha Digital para Colombia en 2022 fue de 0,400, donde un valor más cercano a cero implica menor brecha.\n\nLas Habilidades Digitales (34,9%) y el Acceso Material (31,2%) son los mayores factores que contribuyen a esta desigualdad, demostrando que no basta con tener infraestructura; la capacidad y conocimiento para usarla son igualmente importantes.\n\nLos departamentos de la Amazonía y Orinoquía, como Vichada, Vaupés, Guainía y Amazonas, muestran los índices más altos, superando el 0,5, evidenciando la necesidad de políticas públicas más focalizadas.',
+        contenido: 'SITUACIÓN ACTUAL EN COLOMBIA:\n\nSegún el "Índice de Brecha Digital" de 2022 desarrollado por el DANE y MinTIC, Colombia presenta un índice de 0,400 (donde 0 indica menor brecha), evidenciando desafíos significativos en inclusión digital.\n\nFACTORES CRÍTICOS:\n• Habilidades Digitales: 34.9% de contribución a la brecha\n• Acceso Material: 31.2% de contribución a la brecha\n• Conectividad: 19.8% de contribución a la brecha\n• Uso de TIC: 14.1% de contribución a la brecha\n\nDISPARIDADES REGIONALES:\nLos departamentos de Amazonía y Orinoquía (Vichada, Vaupés, Guainía, Amazonas) muestran índices superiores a 0.5, mientras que Bogotá, Antioquia y Valle del Cauca presentan los menores índices.\n\nAVANCES TECNOLÓGICOS:\n• Expansión de redes 4G a nivel nacional\n• Implementación piloto de 5G en principales ciudades\n• Programa "Hogares Conectados" beneficiando a más de 200,000 familias\n• Estrategia Nacional de Inclusión Digital 2022-2026\n\nEste análisis fundamenta la necesidad urgente de intervenciones focalizadas en comunidades vulnerables.',
         imagen: 'https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=800',
-        lado: 'izquierda'
+        lado: 'derecha'
       },
       {
-        titulo: 'Test de Comprensión: Brecha Digital en Colombia',
-        contenido: 'Evalúa tu comprensión sobre la brecha digital en Colombia respondiendo las siguientes preguntas basadas en el contenido del módulo.',
+        titulo: 'Referencias Bibliográficas',
+        contenido: 'FUENTES OFICIALES:\n\n• DANE - Departamento Administrativo Nacional de Estadística. (2022). Índice de Brecha Digital Regional en Colombia. Bogotá: DANE.\n\n• MinTIC - Ministerio de Tecnologías de la Información y las Comunicaciones. (2022). Plan Nacional de Desarrollo Digital 2022-2026. Bogotá: MinTIC.\n\n• MinTIC. (2023). Encuesta Nacional de Calidad de Vida Digital. Bogotá: Gobierno de Colombia.\n\nFUENTES ACADÉMICAS:\n\n• Cabero-Almenara, J., & Valencia-Ortiz, R. (2021). Y el COVID-19 transformó al sistema educativo: reflexiones y experiencias por aprender. IJERI: International Journal of Educational Research and Innovation, (15), 218-228.\n\n• Gómez, D., Alves, P., Martins, P., & Inamorato, A. (2018). European Framework for Digitally Competent Educational Organisations. European Commission: Joint Research Centre.\n\n• Ragnedda, M. (2017). The Third Digital Divide: A Weberian Approach to Digital Inequalities. Routledge Studies in Science, Technology and Society.\n\nFUENTES INTERNACIONALES:\n\n• ITU - International Telecommunication Union. (2022). Measuring digital development: Facts and figures 2022. Geneva: ITU.\n\n• CEPAL. (2021). Tecnologías digitales para un nuevo futuro. Santiago: Comisión Económica para América Latina y el Caribe.\n\n• UNESCO. (2020). Inclusión y educación: Todos sin excepción. París: UNESCO.\n\nFUENTES COMPLEMENTARIAS:\n\n• Van Dijk, J. (2020). The Digital Divide. Cambridge: Polity Press.\n\n• Warschauer, M. (2003). Technology and Social Inclusion: Rethinking the Digital Divide. MIT Press.'
+      },
+      {
+        titulo: 'Test de Comprensión: Proyecto de Inclusión Digital',
+        contenido: 'Evalúa tu comprensión sobre los elementos fundamentales del proyecto de responsabilidad social en inclusión digital.',
         tieneTest: true,
         preguntas: [
           {
             id: 1,
-            pregunta: "¿Cuál fue el Índice de Brecha Digital para Colombia en 2022?",
+            pregunta: "¿Cuál es el objetivo general del proyecto de inclusión digital familiar?",
             opciones: [
-              "0,200",
-              "0,400", 
-              "0,600",
-              "0,800"
+              "Vender dispositivos tecnológicos a familias vulnerables",
+              "Desarrollar e implementar un programa que fortalezca competencias tecnológicas de comunidades vulnerables",
+              "Crear una empresa de servicios de internet",
+              "Diseñar aplicaciones móviles para familias"
             ],
             respuestaCorrecta: 1,
-            explicacion: "El Índice de Brecha Digital para Colombia en 2022 fue de 0,400, donde un valor más cercano a cero implica menor brecha."
+            explicacion: "El objetivo general es desarrollar e implementar un programa integral que fortalezca las competencias tecnológicas de comunidades vulnerables, promoviendo acceso equitativo a las TIC como herramienta de desarrollo social."
           },
           {
             id: 2,
-            pregunta: "¿Cuáles son los dos mayores factores que contribuyen a la brecha digital en Colombia?",
+            pregunta: "Según el DANE 2022, ¿qué porcentaje de hogares colombianos tiene acceso a internet?",
             opciones: [
-              "Infraestructura y Costos",
-              "Habilidades Digitales (34,9%) y Acceso Material (31,2%)",
-              "Ubicación Geográfica y Educación",
-              "Conectividad 4G y 5G"
+              "23.8%",
+              "45.2%",
+              "56.5%",
+              "72.1%"
             ],
-            respuestaCorrecta: 1,
-            explicacion: "Las Habilidades Digitales (34,9%) y el Acceso Material (31,2%) son los mayores factores que contribuyen a esta desigualdad."
+            respuestaCorrecta: 2,
+            explicacion: "Según el DANE (2022), el 56.5% de los hogares colombianos tiene acceso a internet, cifra que disminuye significativamente en áreas rurales (23.8%)."
           },
           {
             id: 3,
-            pregunta: "¿Qué departamentos muestran los índices más altos de brecha digital?",
+            pregunta: "¿Cuáles son los dos factores que más contribuyen a la brecha digital en Colombia?",
             opciones: [
-              "Antioquia, Cundinamarca y Valle",
-              "Atlántico, Bolívar y Magdalena", 
-              "Vichada, Vaupés, Guainía y Amazonas",
-              "Santander, Norte de Santander y Cesar"
+              "Edad y género",
+              "Habilidades Digitales (34.9%) y Acceso Material (31.2%)",
+              "Ubicación geográfica y nivel educativo",
+              "Ingresos familiares y tipo de vivienda"
             ],
-            respuestaCorrecta: 2,
-            explicacion: "Los departamentos de la Amazonía y Orinoquía, como Vichada, Vaupés, Guainía y Amazonas, muestran los índices más altos, superando el 0,5."
+            respuestaCorrecta: 1,
+            explicacion: "Las Habilidades Digitales (34.9%) y el Acceso Material (31.2%) son los factores que más contribuyen a la brecha digital, demostrando que se requieren intervenciones tanto en capacitación como en acceso físico a tecnologías."
           },
           {
             id: 4,
-            pregunta: "¿Qué tecnologías han contribuido a los avances en conectividad en Colombia?",
+            pregunta: "¿Con cuáles ODS (Objetivos de Desarrollo Sostenible) se alinea este proyecto?",
             opciones: [
-              "Solo redes 3G",
-              "Expansión de redes 4G y la llegada del 5G a algunas ciudades",
-              "Únicamente fibra óptica",
-              "Solo conexiones satelitales"
+              "Solo con el ODS 4 (Educación de Calidad)",
+              "ODS 4, 8, 10 y 16 (Educación, Trabajo Decente, Reducción de Desigualdades, Paz y Justicia)",
+              "Solo con el ODS 9 (Industria e Innovación)",
+              "Todos los 17 ODS por igual"
             ],
             respuestaCorrecta: 1,
-            explicacion: "Colombia ha logrado avances significativos en conectividad general, especialmente con la expansión de redes 4G y la llegada del 5G a algunas ciudades."
+            explicacion: "El proyecto contribuye directamente a los ODS 4 (Educación de Calidad), 8 (Trabajo Decente), 10 (Reducción de Desigualdades) y 16 (Paz y Justicia), abordando múltiples dimensiones del desarrollo sostenible."
           },
           {
             id: 5,
-            pregunta: "¿Qué demuestra la importancia de las Habilidades Digitales como factor de brecha?",
+            pregunta: "¿Por qué este proyecto representa responsabilidad social universitaria?",
             opciones: [
-              "Que la infraestructura es lo único importante",
-              "Que no basta con tener infraestructura; la capacidad y conocimiento para usarla son igualmente importantes",
-              "Que solo importa el acceso a internet",
-              "Que la educación tradicional es suficiente"
+              "Porque es un requisito académico obligatorio",
+              "Porque permite obtener mejores calificaciones",
+              "Porque como futuros ingenieros tenemos la responsabilidad ética de usar nuestros conocimientos para generar impacto social positivo",
+              "Porque mejora el currículum profesional"
             ],
-            respuestaCorrecta: 1,
-            explicacion: "Esto demuestra que no basta con tener infraestructura; la capacidad y conocimiento para usarla son igualmente importantes."
+            respuestaCorrecta: 2,
+            explicacion: "La responsabilidad social universitaria implica que como futuros profesionales en ingeniería de software, tenemos la responsabilidad ética de aplicar nuestros conocimientos técnicos para generar transformaciones sociales positivas y contribuir a la equidad digital."
           }
         ]
       }
