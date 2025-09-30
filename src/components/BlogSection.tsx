@@ -53,7 +53,7 @@ const modulos: Modulo[] = [
     secciones: [
       {
         titulo: '¿Quién soy?',
-        contenido: 'Leonardo Mosquera Rodríguez. Estudiante de Ingeniería de Software en Uniminuto. RCC: 123456789. Universidad: Uniminuto. Email: leonardo.mosquera@uniminuto.edu.co.',
+        contenido: 'Leonardo Mosquera Rodríguez. Estudiante de Ingeniería de Software en Uniminuto. NRC - 3327 Práctica en Responsabilidad Social. Universidad: Uniminuto. Email: leonardo.mosquera@uniminuto.edu.co.',
         imagen: 'https://i.imgur.com/JQv4hvL.jpeg',
         lado: 'derecha'
       },
