@@ -109,31 +109,14 @@ const Header: React.FC<HeaderProps> = ({ activeSection, setActiveSection }) => {
 
       <div className="flex-1 flex flex-col justify-center items-center w-full">
         <div className="w-full h-full flex flex-col items-center justify-center">
-          <div className="w-full flex items-center justify-center mb-8">
-            <div className="w-full max-w-4xl aspect-video rounded-xl overflow-hidden shadow-lg">
-              <iframe
-                width="100%"
-                height="100%"
-                src="https://www.youtube.com/embed/iAYxNaiwIbs?start=103"
-                title="Empoderamiento Digital"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                className="w-full h-full"
-                style={{ minHeight: '320px', maxHeight: '600px', minWidth: '100%', borderRadius: '1rem' }}
-              />
-            </div>
-          </div>
-          <div className="w-full flex flex-col items-center mb-8">
-            <div className="bg-gray-50 border border-gray-200 rounded-lg p-6 min-w-[280px] max-w-lg w-full">
-              <div className="text-center text-sm text-gray-600 space-y-1">
-                <p><span className="font-medium">Estudiante:</span> Leonardo Mosquera Rodríguez (ID: 922268)</p>
-                <p><span className="font-medium">Docente:</span> Jessica Sabina Alvarez Ariza</p>
-                <p><span className="font-medium">Institución:</span> UNIMINUTO - Bogotá, Colombia</p>
-                <p><span className="font-medium">Asignatura:</span> Práctica en Responsabilidad Social (NRC-3327)</p>
-                <p><span className="font-medium">Período:</span> Septiembre de 2025</p>
-              </div>
-            </div>
+          {/* Contenido del header simplificado - solo navegación */}
+          <div className="text-center p-8">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Proyecto de Inclusión Digital
+            </h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              Un enfoque integral para reducir la brecha digital en Colombia
+            </p>
           </div>
         </div>
       </div>

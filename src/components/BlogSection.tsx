@@ -59,7 +59,7 @@ const modulos: Modulo[] = [
       },
       {
         titulo: '¿Qué comunidad o grupo social voy a trabajar?',
-        contenido: 'Familia: Onesimo Mosquera, Aracely Rodríguez, Oscar Silva, Ruth Rodriguez, Rodolfo Mantilla.',
+        contenido: 'Mi núcleo familiar conformado por mis padres Onesimo Mosquera y Aracely Rodriguez, mis hermanos Oscar Silva y Ruth Rodriguez, y mis abuelos Rodolfo Mantilla y Cleotilde Rodriguez. Una familia que representa la diversidad generacional y las diferentes necesidades de inclusión digital.',
         imagen: 'https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=800',
         lado: 'izquierda'
       },
@@ -101,22 +101,22 @@ const modulos: Modulo[] = [
       },
       { 
         titulo: 'Objetivos del Proyecto', 
-        contenido: 'OBJETIVO GENERAL:\nDesarrollar e implementar un programa de inclusión digital familiar que fortalezca las competencias tecnológicas de comunidades vulnerables, promoviendo el acceso equitativo a las tecnologías de la información y comunicación como herramienta de desarrollo social.\n\nOBJETIVOS ESPECÍFICOS:\n\n1. DIAGNÓSTICO: Identificar las necesidades específicas de acceso y uso de tecnologías en las familias participantes mediante evaluaciones personalizadas.\n\n2. CAPACITACIÓN: Desarrollar talleres de alfabetización digital adaptados a diferentes grupos etarios, enfocados en habilidades básicas y avanzadas de uso de dispositivos e internet.\n\n3. ACCESO: Facilitar el acceso a dispositivos tecnológicos y conectividad a internet mediante alianzas estratégicas con organizaciones públicas y privadas.\n\n4. SOSTENIBILIDAD: Crear redes de apoyo comunitario que permitan la continuidad del programa y la multiplicación de conocimientos.\n\n5. EVALUACIÓN: Medir el impacto del proyecto en la reducción de la brecha digital y el mejoramiento de la calidad de vida de las familias participantes.',
+        contenido: 'OBJETIVO GENERAL:\nDesarrollar e implementar un programa de inclusión digital familiar que fortalezca las competencias tecnológicas de comunidades vulnerables, promoviendo el acceso equitativo a las tecnologías de la información y comunicación como herramienta de desarrollo social.\n\nOBJETIVOS ESPECÍFICOS:\n\n1. ALFABETIZACIÓN DIGITAL BÁSICA: Desarrollar competencias fundamentales en el manejo de dispositivos electrónicos, incluyendo encendido, navegación básica y uso de aplicaciones esenciales para la vida cotidiana.\n\n2. NAVEGACIÓN Y ACCESO A INFORMACIÓN: Enseñar el uso efectivo de Internet como herramienta de acceso a información relevante, recursos educativos y contenido de interés personal y comunitario.\n\n3. COMUNICACIÓN DIGITAL: Guiar en la creación y gestión de cuentas de correo electrónico para facilitar la comunicación interpersonal y la realización de trámites básicos en línea.\n\n4. SERVICIOS DIGITALES ESENCIALES: Capacitar en el uso seguro y efectivo de servicios digitales relevantes como pagos en línea, solicitud de citas médicas y videollamadas para mejorar la calidad de vida.\n\n5. SOSTENIBILIDAD Y MULTIPLICACIÓN: Crear redes de apoyo familiar que permitan la continuidad del aprendizaje y la transferencia de conocimientos entre generaciones.',
         imagen: 'https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=800',
         lado: 'derecha'
+      },
+      { 
+        titulo: 'Registro de Estudiantes - Cuestionario de Diagnóstico', 
+        contenido: 'Para una implementación efectiva del proyecto, es fundamental conocer las necesidades específicas y el nivel actual de competencias digitales de los participantes.\n\n📝 CUESTIONARIO DE DIAGNÓSTICO\n\nAntes de iniciar las sesiones de capacitación, todos los estudiantes interesados deben completar nuestro cuestionario de diagnóstico que nos permitirá:\n\n• Evaluar el nivel actual de conocimientos digitales\n• Identificar necesidades específicas de cada participante\n• Adaptar el contenido y metodología de las sesiones\n• Establecer grupos de trabajo homogéneos\n• Medir el progreso al finalizar el programa\n\nEl cuestionario incluye preguntas sobre:\n- Experiencia previa con dispositivos tecnológicos\n- Nivel de uso de internet y aplicaciones\n- Principales dificultades tecnológicas\n- Expectativas del programa\n- Disponibilidad de tiempo y recursos\n\n¡Tu participación es fundamental para el éxito del proyecto!',
+        imagen: 'https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'izquierda',
+        tieneFormulario: true
       },
       { 
         titulo: 'Justificación', 
         contenido: 'RELEVANCIA SOCIAL:\nLa inclusión digital es fundamental para garantizar la equidad social en el siglo XXI. Este proyecto se justifica desde múltiples perspectivas:\n\n• DERECHOS HUMANOS: El acceso a la información y las comunicaciones es reconocido como un derecho humano fundamental por la ONU.\n\n• DESARROLLO SOSTENIBLE: Contribuye directamente a los ODS 4 (Educación de Calidad), 8 (Trabajo Decente), 10 (Reducción de Desigualdades) y 16 (Paz y Justicia).\n\n• IMPACTO ECONÓMICO: Las familias digitalmente incluidas tienen mayor acceso a oportunidades laborales, educativas y de emprendimiento.\n\n• COHESIÓN SOCIAL: Reduce el aislamiento y fortalece los vínculos comunitarios a través de redes digitales.\n\n• RESPONSABILIDAD UNIVERSITARIA: Como futuros ingenieros de software, tenemos la responsabilidad ética de usar nuestros conocimientos para generar impacto social positivo.\n\nRELEVANCIA ACADÉMICA:\nEste proyecto integra conocimientos técnicos de ingeniería de software con competencias sociales, desarrollando profesionales integrales comprometidos con la transformación social. Permite aplicar metodologías de investigación-acción participativa y evaluar el impacto real de las intervenciones tecnológicas en comunidades vulnerables.',
         imagen: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800',
         lado: 'izquierda'
-      },
-      { 
-        titulo: 'Video Explicativo del Proyecto', 
-        contenido: 'Presentación audiovisual del proyecto de inclusión digital familiar, destacando los objetivos, metodología y el impacto esperado en las comunidades participantes.',
-        lado: 'derecha',
-        tieneVideo: true,
-        videoUrl: 'https://www.youtube.com/embed/W0b_iJPu-U4'
       },
       { 
         titulo: 'Análisis a Nivel Nacional (DANE y MinTIC)', 
@@ -239,7 +239,6 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
   const [moduloActivo, setModuloActivo] = useState<string | null>(null);
   const [vistaActual, setVistaActual] = useState<'overview' | 'detail'>('overview');
   const [respuestasTest, setRespuestasTest] = useState<RespuestaEstudiante[]>([]);
-  const [testCompletado, setTestCompletado] = useState(false);
   const [mostrandoResultados, setMostrandoResultados] = useState(false);
 
   // Efecto para manejar navegación desde Header
@@ -262,7 +261,6 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
     setModuloActivo(null);
     setVistaActual('overview');
     setRespuestasTest([]);
-    setTestCompletado(false);
     setMostrandoResultados(false);
   };
 
@@ -275,7 +273,6 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
 
   const handleSubmitTest = (preguntas: Pregunta[]) => {
     if (respuestasTest.length === preguntas.length) {
-      setTestCompletado(true);
       setMostrandoResultados(true);
     }
   };
@@ -340,7 +337,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
           <div className="space-y-20">
             {moduloSeleccionado.secciones.map((seccion, idx) => (
               <div key={idx} className="animate-fade-in">
-                {seccion.imagen || (seccion.tieneVideo && seccion.videoUrl) || (seccion.tieneMapa && seccion.mapaUrl) ? (
+                {seccion.imagen || (seccion.tieneVideo && seccion.videoUrl) || (seccion.tieneMapa && seccion.mapaUrl) || seccion.tieneFormulario ? (
                   <div className={`flex flex-col lg:flex-row items-center gap-12 ${
                     seccion.lado === 'izquierda' ? 'lg:flex-row-reverse' : ''
                   }`}>
@@ -355,6 +352,24 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
                             {seccion.contenido}
                           </p>
                         </div>
+                        {seccion.tieneFormulario && (
+                          <div className="mt-8">
+                            <a
+                              href="https://forms.office.com/pages/responsepage.aspx?id=64W6sVOiZ0Se6NT47U3zAGrQbTQnnfNOipDaldbRG7NURFVLWUxRUDVEUjI5R1cxU1BUWldJMkJGVi4u&route=shorturl"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                            >
+                              <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                              </svg>
+                              Completar Cuestionario de Diagnóstico
+                            </a>
+                            <p className="text-sm text-gray-600 mt-2">
+                              El cuestionario se abre en una nueva ventana y toma aproximadamente 5-10 minutos completarlo.
+                            </p>
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="flex-1 max-w-lg">
@@ -395,6 +410,32 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
                             loading="lazy"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                        </div>
+                      ) : seccion.tieneFormulario ? (
+                        <div className="bg-gradient-to-br from-blue-50 to-indigo-100 rounded-2xl p-8 shadow-2xl border-2 border-blue-200">
+                          <div className="text-center">
+                            <div className="text-6xl mb-4">📋</div>
+                            <h4 className="text-xl font-bold text-blue-900 mb-2">
+                              Cuestionario de Diagnóstico
+                            </h4>
+                            <p className="text-blue-700 text-sm">
+                              Práctica en Responsabilidad Social - Inclusión Digital
+                            </p>
+                            <div className="mt-6 p-4 bg-white rounded-lg shadow-inner">
+                              <div className="flex items-center justify-center space-x-2 text-sm text-gray-600">
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>5-10 minutos</span>
+                              </div>
+                              <div className="flex items-center justify-center space-x-2 text-sm text-gray-600 mt-1">
+                                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                                <span>Obligatorio para participar</span>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       ) : null}
                     </div>
@@ -547,7 +588,6 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
                             <button
                               onClick={() => {
                                 setRespuestasTest([]);
-                                setTestCompletado(false);
                                 setMostrandoResultados(false);
                               }}
                               className="px-6 py-3 rounded-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white font-semibold hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 shadow-lg hover:shadow-xl"
