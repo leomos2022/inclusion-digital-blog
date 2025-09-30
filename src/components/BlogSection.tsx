@@ -113,6 +113,13 @@ const modulos: Modulo[] = [
         tieneFormulario: true
       },
       { 
+        titulo: 'Video Explicativo del Proyecto', 
+        contenido: 'Presentación audiovisual del proyecto de inclusión digital familiar, destacando los objetivos, metodología y el impacto esperado en las comunidades participantes.',
+        lado: 'derecha',
+        tieneVideo: true,
+        videoUrl: 'https://www.youtube.com/embed/W0b_iJPu-U4'
+      },
+      { 
         titulo: 'Justificación', 
         contenido: 'RELEVANCIA SOCIAL:\nLa inclusión digital es fundamental para garantizar la equidad social en el siglo XXI. Este proyecto se justifica desde múltiples perspectivas:\n\n• DERECHOS HUMANOS: El acceso a la información y las comunicaciones es reconocido como un derecho humano fundamental por la ONU.\n\n• DESARROLLO SOSTENIBLE: Contribuye directamente a los ODS 4 (Educación de Calidad), 8 (Trabajo Decente), 10 (Reducción de Desigualdades) y 16 (Paz y Justicia).\n\n• IMPACTO ECONÓMICO: Las familias digitalmente incluidas tienen mayor acceso a oportunidades laborales, educativas y de emprendimiento.\n\n• COHESIÓN SOCIAL: Reduce el aislamiento y fortalece los vínculos comunitarios a través de redes digitales.\n\n• RESPONSABILIDAD UNIVERSITARIA: Como futuros ingenieros de software, tenemos la responsabilidad ética de usar nuestros conocimientos para generar impacto social positivo.\n\nRELEVANCIA ACADÉMICA:\nEste proyecto integra conocimientos técnicos de ingeniería de software con competencias sociales, desarrollando profesionales integrales comprometidos con la transformación social. Permite aplicar metodologías de investigación-acción participativa y evaluar el impacto real de las intervenciones tecnológicas en comunidades vulnerables.',
         imagen: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800',
