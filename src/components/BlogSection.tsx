@@ -206,17 +206,48 @@ const modulos: Modulo[] = [
   },
   {
     id: 'modulo3',
-    titulo: 'Módulo 3 - Metodología y Desarrollo',
-    descripcion: 'Metodologías aplicadas, herramientas utilizadas y proceso de desarrollo del proyecto de inclusión digital.',
-    icono: '🔧',
-    color: 'from-purple-500 to-pink-600',
-    duracion: '20 min lectura',
+    titulo: 'Módulo 3 - Blog Inclusión Digital – Desarrollo Integral y Sostenible',
+    descripcion: 'Experiencias prácticas de inclusión digital enfocadas en la justicia social y desarrollo sostenible.',
+    icono: '🌱',
+    color: 'from-emerald-600 to-green-700',
+    duracion: '30 min práctica',
     secciones: [
       {
-        titulo: 'Metodología de Investigación',
-        contenido: 'Metodología de investigación mixta aplicada al estudio de la brecha digital, incluyendo enfoques cuantitativos y cualitativos para un análisis integral.',
-        imagen: 'https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg?auto=compress&cs=tinysrgb&w=800',
+        titulo: '🎯 Diagnóstico de Competencias Digitales',
+        contenido: 'Antes de comenzar el aprendizaje, es fundamental evaluar tu nivel actual de competencias digitales.\n\n📋 OBJETIVO:\nConocer tu punto de partida para personalizar la experiencia de aprendizaje.\n\n⏱️ DURACIÓN: 5-10 minutos\n\n🔒 CONFIDENCIALIDAD: Tus respuestas son completamente confidenciales.\n\n📧 RESULTADOS: Los resultados serán enviados a leonardo.mosquera@uniminuto.edu.co para análisis académico.\n\n✅ INSTRUCCIONES:\n1. Lee cada pregunta cuidadosamente\n2. Responde con honestidad según tu experiencia\n3. Al finalizar, haz clic en "Enviar Diagnóstico"\n4. Recibirás confirmación de envío exitoso',
+        imagen: 'https://images.pexels.com/photos/5940721/pexels-photo-5940721.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'derecha',
+        tieneFormulario: true
+      },
+      {
+        titulo: '💻 1. Herramientas Digitales Básicas',
+        contenido: 'Las herramientas digitales básicas son la base de la alfabetización digital moderna. Dominar estas aplicaciones te permitirá ser más productivo y eficiente.\n\n📝 PROCESADORES DE TEXTO:\n• Microsoft Word: Estándar en oficinas\n• Google Docs: Colaboración en tiempo real\n• LibreOffice Writer: Alternativa gratuita\n• Apple Pages: Para usuarios de Mac\n\n📊 HOJAS DE CÁLCULO:\n• Microsoft Excel: Análisis de datos avanzado\n• Google Sheets: Acceso desde cualquier lugar\n• LibreOffice Calc: Herramienta gratuita completa\n• Apple Numbers: Diseño intuitivo\n\n🎨 PRESENTACIONES:\n• PowerPoint: Presentaciones profesionales\n• Google Slides: Colaboración fácil\n• Canva: Diseños atractivos sin experiencia\n• Prezi: Presentaciones dinámicas\n\n💡 CONSEJOS DE PRODUCTIVIDAD:\n• Aprende atajos básicos: Ctrl+C (copiar), Ctrl+V (pegar), Ctrl+Z (deshacer)\n• Usa plantillas prediseñadas para ahorrar tiempo\n• Guarda automáticamente en la nube\n• Practica regularmente para ganar confianza',
+        imagen: 'https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'izquierda'
+      },
+      {
+        titulo: '� 2. Navegación Web Segura',
+        contenido: 'La seguridad en línea es fundamental. Aprender a navegar de forma segura protege tu información personal y evita amenazas cibernéticas.\n\n🔍 IDENTIFICACIÓN DE SITIOS SEGUROS:\n• HTTPS: Busca el candado verde en la URL\n• Certificados válidos: Verifica la identidad del sitio\n• URLs correctas: Confirma que coincidan con sitios oficiales\n• Diseño profesional: Sitios legítimos tienen buena presentación\n\n🛡️ PROTECCIÓN PERSONAL:\n• Antivirus actualizado: Protección contra malware\n• Contraseñas únicas: Una diferente para cada cuenta importante\n• Autenticación de dos factores: Capa extra de seguridad\n• Actualizaciones regulares: Sistema y navegador siempre al día\n\n⚠️ SEÑALES DE ALERTA:\n• Pop-ups excesivos o sospechosos\n• Ofertas demasiado buenas para ser verdad\n• Solicitudes inesperadas de información personal\n• Emails de remitentes desconocidos con enlaces\n• Sitios con muchos errores ortográficos\n• Presión para actuar "inmediatamente"\n\n🚫 PRÁCTICAS SEGURAS:\n• No compartas información personal en sitios no verificados\n• Usa redes WiFi seguras para transacciones importantes\n• Revisa regularmente tu actividad en línea\n• Reporta actividades sospechosas',
+        imagen: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800',
         lado: 'derecha'
+      },
+      {
+        titulo: '💬 3. Comunicación Digital Efectiva',
+        contenido: 'La comunicación digital eficaz es esencial en el mundo actual. Dominar estas herramientas mejora tu capacidad de conectar con otros personal y profesionalmente.\n\n📧 EMAIL PROFESIONAL:\n• Asunto claro: Describe específicamente el tema\n• Saludo apropiado: "Buenos días" o "Estimado/a"\n• Mensaje estructurado: Introducción, desarrollo, conclusión\n• Despedida cortés: "Cordialmente" o "Saludos"\n• Firma completa: Nombre, cargo, contacto\n• Revisar antes de enviar: Ortografía y tono\n\n💬 MENSAJERÍA INSTANTÁNEA:\n• Respeta horarios: No mensajes de trabajo fuera del horario laboral\n• Sé claro y directo: Evita malentendidos\n• Emojis apropiados: Usa con moderación en contextos profesionales\n• Confirma recepción: Especialmente para mensajes importantes\n• Grupos organizados: Mantén conversaciones relevantes\n\n🎥 VIDEOCONFERENCIAS:\n• Preparación técnica: Prueba audio, video y conexión\n• Ambiente apropiado: Fondo neutral, buena iluminación\n• Participación activa: Silencia micrófono cuando no hables\n• Contacto visual: Mira a la cámara, no a la pantalla\n• Puntualidad: Únete unos minutos antes\n\n🌐 PLATAFORMAS PRINCIPALES:\n• WhatsApp: Comunicación personal y familiar\n• Telegram: Grupos grandes y canales\n• Slack: Comunicación empresarial organizada\n• Microsoft Teams: Colaboración corporativa\n• Zoom: Videoconferencias profesionales\n• Google Meet: Reuniones integradas con Google Workspace',
+        imagen: 'https://images.pexels.com/photos/4050302/pexels-photo-4050302.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'izquierda'
+      },
+      {
+        titulo: '📁 4. Gestión de Información Digital',
+        contenido: 'La gestión eficiente de información digital incluye organización, búsqueda, evaluación y almacenamiento sistemático de datos.\n\n🗂️ ORGANIZACIÓN DE ARCHIVOS:\n• Estructura jerárquica: Carpetas principales → subcarpetas → archivos\n• Nomenclatura consistente: "YYYY-MM-DD_NombreDescriptivo"\n• Versiones controladas: "Documento_v1", "Documento_v2_final"\n• Limpieza regular: Elimina archivos obsoletos mensualmente\n• Categorías lógicas: Por proyecto, fecha, tipo de documento\n\n☁️ ALMACENAMIENTO EN LA NUBE:\n• Google Drive: 15GB gratis, integración con Google Workspace\n• Dropbox: Sincronización excelente, fácil compartir\n• OneDrive: Integrado con Microsoft Office\n• iCloud: Perfecto para usuarios de Apple\n• Backup automático: Configura sincronización de carpetas importantes\n\n🔍 BÚSQUEDA EFECTIVA:\n• Palabras clave específicas: Términos precisos y relevantes\n• Operadores booleanos: "AND", "OR", "NOT" para refinar\n• Comillas para frases: "frase exacta" entre comillas\n• Filtros avanzados: Por fecha, tipo de archivo, fuente\n• Múltiples fuentes: Contrasta información de varios sitios\n\n📊 EVALUACIÓN DE FUENTES:\n✅ FUENTES CONFIABLES:\n• Sitios oficiales (.gov, .edu, .org establecidas)\n• Publicaciones académicas con revisión por pares\n• Medios de comunicación reconocidos\n• Organizaciones internacionales certificadas\n• Autores con credenciales verificables\n\n❌ SEÑALES DE ALERTA:\n• Información sin autor identificado\n• Fechas de publicación muy antiguas sin actualizar\n• Fuentes no citadas o referencias inexistentes\n• Contenido sensacionalista o emocional\n• Sitios web con diseño poco profesional\n• Información que contradice múltiples fuentes confiables',
+        imagen: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'derecha'
+      },
+      {
+        titulo: '👨‍👩‍👧‍👦 5. Experiencias Familiares Exitosas',
+        contenido: 'Conoce las historias reales de familias que han transformado su relación con la tecnología a través de este programa de inclusión digital.\n\n👥 FAMILIA GONZÁLEZ - MADRID, CUNDINAMARCA:\n"Antes del programa, solo los jóvenes usaban el computador. Ahora toda la familia participa en videollamadas con los abuelos que viven lejos. Los niños se han convertido en pequeños profesores, enseñando a sus padres nuevas aplicaciones cada semana."\n\n🏠 FAMILIA RODRÍGUEZ - SOACHA:\n"Aprender sobre seguridad digital cambió nuestra perspectiva completamente. Ahora sabemos cómo proteger a nuestros hijos mientras navegan por internet de manera responsable. También organizamos mejor nuestros documentos familiares en la nube."\n\n💼 FAMILIA MARTÍNEZ - BOGOTÁ:\n"Mi esposo comenzó a usar herramientas digitales para su pequeño negocio. Ahora lleva la contabilidad en Excel y se comunica con clientes por WhatsApp Business. Los ingresos han mejorado significativamente."\n\n📚 FAMILIA LÓPEZ - ZIPAQUIRÁ:\n"Los proyectos escolares de nuestros hijos han mejorado mucho desde que aprendimos a buscar información confiable en internet. También creamos presentaciones en familia para ocasiones especiales."\n\n🤝 FAMILIA TORRES - FACATATIVÁ:\n"Lo más valioso ha sido aprender a trabajar colaborativamente en documentos de Google. Ahora planificamos vacaciones, organizamos eventos familiares y compartimos recetas, todo de manera digital y organizada."\n\n❤️ IMPACTO COMÚN:\n• Mayor comunicación familiar a través de tecnología\n• Mejores oportunidades laborales y educativas\n• Reducción de la brecha generacional\n• Mayor confianza para explorar nuevas herramientas\n• Desarrollo de habilidades de pensamiento crítico digital',
+        imagen: 'https://images.pexels.com/photos/4050349/pexels-photo-4050349.jpeg?auto=compress&cs=tinysrgb&w=800',
+        lado: 'izquierda'
       }
     ]
   },
@@ -297,7 +328,766 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
 
   const moduloSeleccionado = modulos.find(m => m.id === moduloActivo);
 
+  // Función para renderizar el layout especial del módulo 3
+  const renderBlogLayout = () => {
+    return (
+      <section className="min-h-screen bg-gray-50">
+        {/* Header del blog */}
+        <header className="bg-white shadow-sm border-b">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-between items-center h-16">
+              {/* Logo */}
+              <div className="flex items-center">
+                <div className="flex-shrink-0">
+                  <span className="text-2xl font-bold text-emerald-600">Inclusión Digital</span>
+                </div>
+              </div>
+              
+              {/* Botón de regreso */}
+              <button
+                onClick={handleBackToOverview}
+                className="text-gray-600 hover:text-gray-800 px-3 py-2 text-sm font-medium"
+              >
+                ← Volver
+              </button>
+            </div>
+          </div>
+        </header>
+
+        {/* Contenido principal */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Imagen principal (2/3 del ancho) */}
+            <div className="lg:col-span-2">
+              <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+                <img 
+                  src="https://i.imgur.com/e2LwdW2.jpeg" 
+                  alt="Creación de cuenta de correo electrónico - Proceso paso a paso" 
+                  className="w-full h-64 md:h-80 object-contain bg-gray-50"
+                />
+                
+                {/* Contenido debajo de la imagen */}
+                <div className="p-6">
+                  <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
+                    Creación de una cuenta de correo electrónico
+                  </h2>
+                  <div className="flex items-center text-sm text-gray-600 mb-4">
+                    <a href="#" className="text-emerald-600 hover:text-emerald-700 font-medium">
+                      Evidencia de práctica 1
+                    </a>
+                    <span className="mx-2">•</span>
+                    <time>3 de octubre, 2024</time>
+                  </div>
+                  
+                  <div className="prose max-w-none text-gray-700">
+                    <p className="text-lg leading-relaxed mb-4">
+                      La <strong>inclusión digital</strong> es fundamental para garantizar la <strong>justicia social</strong> en el siglo XXI. 
+                      Este proyecto contribuye al <strong>desarrollo sostenible</strong> mediante el fortalecimiento de competencias 
+                      digitales básicas que empoderan a las comunidades vulnerables.
+                    </p>
+                    <p className="mb-4">
+                      El acceso a <strong>herramientas digitales</strong> como el correo electrónico no es solo una cuestión 
+                      tecnológica, sino un derecho fundamental que facilita la participación ciudadana, el acceso a 
+                      servicios públicos y oportunidades laborales y educativas.
+                    </p>
+                  </div>
+                  
+                  {/* Evidencias fotográficas de la práctica 1 */}
+                  <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+                    <h3 className="font-semibold text-blue-800 mb-4">Evidencias Fotográficas: Creación de Cuenta de Correo</h3>
+                    <p className="text-blue-700 text-sm mb-4">
+                      Documentación visual del proceso de creación de cuenta de correo electrónico y primeros pasos en la comunicación digital.
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                      <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                        <img 
+                          src="https://i.imgur.com/mTHHZJj.jpeg" 
+                          alt="Evidencia 1: Proceso de registro de cuenta de correo" 
+                          className="w-full h-32 object-cover"
+                        />
+                        <div className="p-2 text-center">
+                          <p className="text-sm font-medium text-blue-800">Evidencia 1</p>
+                          <p className="text-xs text-blue-600">Proceso de registro</p>
+                        </div>
+                      </div>
+                      <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                        <img 
+                          src="https://i.imgur.com/IGyjBpE.jpeg" 
+                          alt="Evidencia 2: Configuración inicial de cuenta" 
+                          className="w-full h-32 object-cover"
+                        />
+                        <div className="p-2 text-center">
+                          <p className="text-sm font-medium text-blue-800">Evidencia 2</p>
+                          <p className="text-xs text-blue-600">Configuración inicial</p>
+                        </div>
+                      </div>
+                      <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                        <img 
+                          src="https://i.imgur.com/TO0wYsg.jpeg" 
+                          alt="Evidencia 3: Primer correo enviado exitosamente" 
+                          className="w-full h-32 object-cover"
+                        />
+                        <div className="p-2 text-center">
+                          <p className="text-sm font-medium text-blue-800">Evidencia 3</p>
+                          <p className="text-xs text-blue-600">Primer correo enviado</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mt-4 p-3 bg-green-100 rounded border border-green-200">
+                      <p className="text-green-800 text-sm">
+                        <strong>✅ Evidencias completadas:</strong> Las fotografías del proceso de creación de cuenta de correo han sido documentadas exitosamente, mostrando cada paso del proceso de inclusión digital.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Reflexión de la práctica 1 */}
+                  <div className="mt-6 p-4 bg-emerald-50 rounded-lg border border-emerald-200">
+                    <h3 className="font-semibold text-emerald-800 mb-3">Reflexión: Correo Electrónico como Herramienta de Inclusión</h3>
+                    <div className="space-y-3 text-emerald-700 text-sm">
+                      <p>
+                        <strong>Impacto personal:</strong> La creación de una cuenta de correo electrónico representa 
+                        mucho más que un simple registro en una plataforma. Es el primer paso hacia la 
+                        <strong>ciudadanía digital</strong>, abriendo puertas a servicios bancarios, educativos, 
+                        laborales y gubernamentales que requieren identificación digital.
+                      </p>
+                      <p>
+                        <strong>Perspectiva de justicia social:</strong> Durante esta práctica, reflexiono sobre cómo 
+                        millones de personas en Colombia aún no tienen acceso a esta herramienta básica. 
+                        La <strong>brecha digital</strong> no es solo tecnológica, sino una manifestación de 
+                        desigualdades socioeconómicas que perpetúan la exclusión.
+                      </p>
+                      <p>
+                        <strong>Compromiso con el cambio:</strong> Como futuro ingeniero de software, esta experiencia 
+                        refuerza mi compromiso de desarrollar soluciones tecnológicas <strong>inclusivas y accesibles</strong> 
+                        que consideren las necesidades de las poblaciones más vulnerables.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Segunda sección */}
+              <div className="bg-white rounded-lg shadow-sm mt-8 p-6">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Uso básico de Word</h2>
+                <p className="text-gray-700 mb-4">
+                  <strong>Evidencia de práctica 2:</strong> Procesamiento de texto como herramienta de empoderamiento digital.
+                </p>
+                
+                <div className="mb-6">
+                  <div className="bg-gray-50 rounded-lg p-4 mb-4">
+                    <h4 className="font-semibold text-gray-900 mb-3">Video Tutorial: Fundamentos de Microsoft Word</h4>
+                    <div className="aspect-video">
+                      <iframe
+                        width="100%"
+                        height="100%"
+                        src="https://www.youtube.com/embed/oi9woh5hQz8"
+                        title="Tutorial Básico de Microsoft Word"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        className="w-full h-full rounded"
+                      />
+                    </div>
+                  </div>
+                  
+                  <a 
+                    href="https://www.youtube.com/watch?v=oi9woh5hQz8" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-medium"
+                  >
+                    🎥 Ver en YouTube
+                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+
+                <div className="bg-emerald-50 p-4 rounded-lg mb-6">
+                  <h3 className="font-semibold text-emerald-800 mb-2">Resumen de aprendizaje:</h3>
+                  <ul className="text-emerald-700 space-y-1">
+                    <li>• Creación y formato básico de documentos</li>
+                    <li>• Uso de herramientas de corrección ortográfica</li>
+                    <li>• Inserción de elementos multimedia</li>
+                    <li>• Colaboración y compartir documentos</li>
+                  </ul>
+                </div>
+
+                {/* Espacio para fotografías de evidencias */}
+                <div>
+                  <h3 className="font-semibold text-gray-900 mb-4">Evidencias fotográficas de la práctica</h3>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                      <img 
+                        src="https://www.solvetic.com/uploads/monthly_12_2018/tutorials-9832-0-84353800-1545132518.png" 
+                        alt="Captura 1: Interface inicial de Microsoft Word" 
+                        className="w-full h-32 object-cover"
+                      />
+                      <div className="p-2 text-center">
+                        <p className="text-sm font-medium text-gray-800">Captura 1</p>
+                        <p className="text-xs text-gray-600">Interface inicial</p>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                      <img 
+                        src="https://www.solvetic.com/uploads/monthly_12_2018/tutorials-9832-0-65243900-1545132520.png" 
+                        alt="Captura 2: Documento creado en Word" 
+                        className="w-full h-32 object-cover"
+                      />
+                      <div className="p-2 text-center">
+                        <p className="text-sm font-medium text-gray-800">Captura 2</p>
+                        <p className="text-xs text-gray-600">Documento creado</p>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                      <img 
+                        src="https://www.solvetic.com/uploads/monthly_12_2018/tutorials-9832-0-73844700-1545132523.png" 
+                        alt="Captura 3: Resultado final del documento en Word" 
+                        className="w-full h-32 object-cover"
+                      />
+                      <div className="p-2 text-center">
+                        <p className="text-sm font-medium text-gray-800">Captura 3</p>
+                        <p className="text-xs text-gray-600">Resultado final</p>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  {/* Reflexión específica de la práctica 2 - Word */}
+                  <div className="mt-6 p-4 bg-purple-50 rounded-lg border border-purple-200">
+                    <h3 className="font-semibold text-purple-800 mb-3">Reflexión: Microsoft Word como Democratizador del Conocimiento</h3>
+                    <div className="space-y-3 text-purple-700 text-sm">
+                      <p>
+                        <strong>Transformación en la comunicación:</strong> El dominio de Microsoft Word va más allá del 
+                        simple procesamiento de texto. Representa la capacidad de <strong>estructurar ideas</strong>, 
+                        crear documentos profesionales y participar en la economía del conocimiento. Para las comunidades 
+                        vulnerables, esto significa acceso a mejores oportunidades laborales y educativas.
+                      </p>
+                      <p>
+                        <strong>Empoderamiento académico y laboral:</strong> Durante esta práctica, comprendo cómo una 
+                        herramienta aparentemente simple puede ser un <strong>catalizador de cambio social</strong>. 
+                        La capacidad de crear CVs, cartas formales, informes y documentos académicos abre puertas 
+                        que antes estaban cerradas para muchas personas.
+                      </p>
+                      <p>
+                        <strong>Visión de futuro:</strong> Esta experiencia me motiva a trabajar en el desarrollo de 
+                        <strong>interfaces más intuitivas</strong> y recursos educativos que hagan que herramientas 
+                        como Word sean más accesibles para personas con diferentes niveles de alfabetización digital.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Sección de reflexión */}
+              <div className="bg-gradient-to-r from-emerald-50 to-green-50 rounded-lg p-6 mt-8 border border-emerald-200">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Reflexión: Desarrollo Digital Sostenible</h2>
+                
+                <div className="space-y-4 text-gray-700">
+                  <div>
+                    <h3 className="font-semibold text-emerald-800 mb-2">Aprendizajes de las prácticas:</h3>
+                    <p>
+                      Las dos evidencias de práctica demuestran cómo las <strong>herramientas digitales básicas</strong> 
+                      pueden transformar la capacidad de comunicación y documentación de las personas. El correo 
+                      electrónico y el procesador de texto son pilares fundamentales para la participación en la 
+                      <strong>sociedad digital</strong>.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold text-emerald-800 mb-2">Desarrollo digital sostenible:</h3>
+                    <p>
+                      Este proyecto se alinea con los <strong>Objetivos de Desarrollo Sostenible</strong>, 
+                      particularmente el ODS 4 (Educación de Calidad) y el ODS 10 (Reducción de Desigualdades). 
+                      La <strong>alfabetización digital</strong> es una herramienta poderosa para el desarrollo 
+                      sostenible, ya que empodera a las comunidades para participar activamente en la economía digital.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="font-semibold text-emerald-800 mb-2">Justicia social e inclusión digital:</h3>
+                    <p>
+                      La <strong>brecha digital</strong> perpetúa desigualdades sociales existentes. Al proporcionar 
+                      acceso y capacitación en tecnologías básicas, estamos contribuyendo a la <strong>justicia social</strong> 
+                      y cerrando brechas que limitan las oportunidades de desarrollo personal y comunitario.
+                    </p>
+                  </div>
+
+                  <div className="bg-white p-4 rounded-lg border border-emerald-200">
+                    <h3 className="font-semibold text-emerald-800 mb-2">Reflexión personal:</h3>
+                    <p className="italic">
+                      "Este proyecto me ha permitido comprender que la tecnología no es neutral: puede ser una 
+                      herramienta de exclusión o de empoderamiento. Como futuro ingeniero de software, tengo la 
+                      responsabilidad de usar mis conocimientos para construir puentes digitales que conecten a 
+                      todas las personas con las oportunidades del mundo moderno, contribuyendo así a una sociedad 
+                      más justa y equitativa."
+                    </p>
+                    <p className="text-right text-emerald-700 font-medium mt-2">
+                      — Leonardo Mosquera Rodríguez
+                    </p>
+                  </div>
+
+                  {/* Reflexión adicional */}
+                  <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-lg border border-blue-200 mt-4">
+                    <h3 className="font-semibold text-blue-800 mb-3">Reflexión sobre el Impacto Transformador de la Tecnología</h3>
+                    <div className="space-y-3 text-blue-700 text-sm">
+                      <p>
+                        <strong>La tecnología como puente generacional:</strong> Este proyecto me ha enseñado que la 
+                        <strong>inclusión digital</strong> no es solo sobre enseñar herramientas, sino sobre crear 
+                        <strong>puentes entre generaciones</strong>. Al ver cómo los adultos mayores aprenden 
+                        junto a los jóvenes, comprendo que la tecnología puede unir en lugar de dividir.
+                      </p>
+                      <p>
+                        <strong>Responsabilidad ética del ingeniero:</strong> Como futuro profesional en tecnología, 
+                        reconozco que cada línea de código que escriba, cada sistema que diseñe, debe considerar 
+                        la <strong>accesibilidad y la inclusión</strong>. No basta con crear soluciones técnicamente 
+                        perfectas; deben ser humanas y socialmente responsables.
+                      </p>
+                      <p>
+                        <strong>Visión de un futuro inclusivo:</strong> Este proyecto semilla una visión donde la 
+                        tecnología sea verdaderamente <strong>democrática</strong>, donde las barreras digitales 
+                        no determinen las oportunidades de vida, y donde cada persona tenga las herramientas 
+                        para participar plenamente en la sociedad digital.
+                      </p>
+                    </div>
+                    <p className="text-right text-blue-700 font-medium mt-3 italic">
+                      "La verdadera innovación no está en la complejidad de la tecnología, sino en su capacidad de servir a la humanidad."
+                    </p>
+                  </div>
+
+                  {/* Sección detallada sobre ODS */}
+                  <div className="bg-gradient-to-r from-indigo-50 to-blue-50 p-6 rounded-lg border border-indigo-200 mt-6">
+                    <h3 className="text-xl font-bold text-indigo-800 mb-4 flex items-center">
+                      <span className="text-2xl mr-2">🎯</span>
+                      Contribución a los Objetivos de Desarrollo Sostenible (ODS)
+                    </h3>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+                      {/* ODS 4 - Educación de Calidad */}
+                      <div className="bg-white p-4 rounded-lg border border-indigo-200">
+                        <div className="flex items-center mb-2">
+                          <div className="w-8 h-8 bg-red-500 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">4</div>
+                          <h4 className="font-semibold text-indigo-800">Educación de Calidad</h4>
+                        </div>
+                        <p className="text-sm text-indigo-700">
+                          <strong>Aporte de la práctica:</strong> Las competencias en correo electrónico y Word fortalecen 
+                          la alfabetización digital, una habilidad fundamental del siglo XXI. Esto mejora el acceso a 
+                          recursos educativos en línea, cursos virtuales y comunicación académica.
+                        </p>
+                      </div>
+
+                      {/* ODS 8 - Trabajo Decente */}
+                      <div className="bg-white p-4 rounded-lg border border-indigo-200">
+                        <div className="flex items-center mb-2">
+                          <div className="w-8 h-8 bg-purple-500 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">8</div>
+                          <h4 className="font-semibold text-indigo-800">Trabajo Decente</h4>
+                        </div>
+                        <p className="text-sm text-indigo-700">
+                          <strong>Aporte de la práctica:</strong> El dominio de herramientas digitales básicas abre 
+                          oportunidades laborales en la economía digital. Permite crear CVs profesionales, 
+                          comunicarse efectivamente con empleadores y acceder a plataformas de empleo en línea.
+                        </p>
+                      </div>
+
+                      {/* ODS 10 - Reducción de Desigualdades */}
+                      <div className="bg-white p-4 rounded-lg border border-indigo-200">
+                        <div className="flex items-center mb-2">
+                          <div className="w-8 h-8 bg-pink-500 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">10</div>
+                          <h4 className="font-semibold text-indigo-800">Reducción de Desigualdades</h4>
+                        </div>
+                        <p className="text-sm text-indigo-700">
+                          <strong>Aporte de la práctica:</strong> Al enseñar herramientas digitales a comunidades 
+                          vulnerables, reducimos la brecha digital que perpetúa desigualdades sociales y económicas. 
+                          Democratizamos el acceso a la información y servicios digitales.
+                        </p>
+                      </div>
+
+                      {/* ODS 16 - Paz y Justicia */}
+                      <div className="bg-white p-4 rounded-lg border border-indigo-200">
+                        <div className="flex items-center mb-2">
+                          <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold mr-3">16</div>
+                          <h4 className="font-semibold text-indigo-800">Paz, Justicia e Instituciones</h4>
+                        </div>
+                        <p className="text-sm text-indigo-700">
+                          <strong>Aporte de la práctica:</strong> La inclusión digital fortalece la participación 
+                          ciudadana y el acceso a servicios públicos. Facilita la interacción con instituciones 
+                          gubernamentales y promueve la transparencia y rendición de cuentas.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="bg-indigo-100 p-4 rounded-lg border border-indigo-300">
+                      <h4 className="font-semibold text-indigo-800 mb-2">Coherencia e Integración de las Prácticas:</h4>
+                      <p className="text-indigo-700 text-sm mb-3">
+                        Las dos prácticas realizadas (creación de correo electrónico y uso básico de Word) están 
+                        intrínsecamente conectadas y se complementan para crear un <strong>ecosistema digital básico</strong> 
+                        que empodera a los participantes:
+                      </p>
+                      <ul className="text-indigo-700 text-sm space-y-1">
+                        <li>• <strong>Sinergia tecnológica:</strong> El correo permite compartir documentos de Word, creando un flujo de trabajo digital completo</li>
+                        <li>• <strong>Escalabilidad social:</strong> Cada persona capacitada puede enseñar a otros en su comunidad, multiplicando el impacto</li>
+                        <li>• <strong>Sostenibilidad a largo plazo:</strong> Las habilidades adquiridas son fundamentales y transferibles a otras tecnologías</li>
+                        <li>• <strong>Impacto multidimensional:</strong> Beneficia aspectos educativos, laborales, sociales y de participación ciudadana simultáneamente</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Referencias académicas */}
+              <div className="bg-white rounded-lg shadow-sm mt-8 p-6">
+                <h2 className="text-2xl font-bold text-gray-900 mb-4">Referencias Bibliográficas</h2>
+                <div className="space-y-3 text-gray-700">
+                  <div className="pl-6 relative">
+                    <div className="absolute left-0 top-2 w-2 h-2 bg-emerald-500 rounded-full"></div>
+                    <p>
+                      Arenas de Mesa, A. & Cecchini, S. (2022). Igualdad y protección social: Claves para un 
+                      desarrollo inclusivo y sostenible. <em>El Trimestre Económico, 89</em>(353), 277-309.
+                    </p>
+                  </div>
+                  <div className="pl-6 relative">
+                    <div className="absolute left-0 top-2 w-2 h-2 bg-emerald-500 rounded-full"></div>
+                    <p>
+                      Jiménez Herrero, L. M. (2018). <em>Desarrollo sostenible: transición hacia la coevolución global</em> 
+                      (pp. 20-29). Pirámide.
+                    </p>
+                  </div>
+                  <div className="pl-6 relative">
+                    <div className="absolute left-0 top-2 w-2 h-2 bg-emerald-500 rounded-full"></div>
+                    <p>
+                      DANE. (2022). <em>Índice de Brecha Digital Regional en Colombia</em>. 
+                      Departamento Administrativo Nacional de Estadística.
+                    </p>
+                  </div>
+                  <div className="pl-6 relative">
+                    <div className="absolute left-0 top-2 w-2 h-2 bg-emerald-500 rounded-full"></div>
+                    <p>
+                      UNESCO. (2020). <em>Inclusión y educación: Todos sin excepción</em>. UNESCO.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Sidebar (1/3 del ancho) */}
+            <div className="lg:col-span-1">
+              <div className="sticky top-8 space-y-6">
+                {/* Panel principal del blog */}
+                <div className="bg-white rounded-lg shadow-sm p-6">
+                  <h1 className="text-xl font-bold text-gray-900 mb-4">
+                    Blog Inclusión Digital – Desarrollo Integral y Sostenible
+                  </h1>
+                  
+                  <p className="text-gray-700 text-sm leading-relaxed mb-6">
+                    Este proyecto de <strong>responsabilidad social universitaria</strong> busca contribuir a la 
+                    <strong>justicia social</strong> mediante la <strong>inclusión digital</strong> de comunidades 
+                    vulnerables. Nuestra misión es cerrar la brecha digital y promover el 
+                    <strong>desarrollo sostenible</strong> a través de la educación tecnológica inclusiva.
+                  </p>
+
+                  {/* Formulario de diagnóstico */}
+                  <div className="border-t pt-6">
+                    <h3 className="font-semibold text-gray-900 mb-3">Diagnóstico de Competencias Digitales</h3>
+                    <p className="text-gray-600 text-sm mb-4">
+                      Evalúa tus conocimientos sobre herramientas digitales básicas. Los resultados se enviarán a leonardo.mosquera@uniminuto.edu.co
+                    </p>
+                    
+                    <form 
+                      action="mailto:leonardo.mosquera@uniminuto.edu.co" 
+                      method="post" 
+                      encType="text/plain"
+                      className="space-y-4 mb-4"
+                    >
+                      {/* Información personal */}
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                          Nombre completo:
+                        </label>
+                        <input 
+                          type="text" 
+                          name="nombre" 
+                          required
+                          className="w-full px-3 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-emerald-500"
+                          placeholder="Tu nombre completo"
+                        />
+                      </div>
+
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-1">
+                          Edad:
+                        </label>
+                        <select 
+                          name="edad" 
+                          required
+                          className="w-full px-3 py-1 border border-gray-300 rounded text-sm focus:outline-none focus:ring-1 focus:ring-emerald-500"
+                        >
+                          <option value="">Selecciona tu rango de edad</option>
+                          <option value="15-25">15-25 años</option>
+                          <option value="26-35">26-35 años</option>
+                          <option value="36-45">36-45 años</option>
+                          <option value="46-55">46-55 años</option>
+                          <option value="56-65">56-65 años</option>
+                          <option value="65+">Más de 65 años</option>
+                        </select>
+                      </div>
+
+                      {/* Preguntas de competencias */}
+                      <div>
+                        <p className="text-sm font-medium text-gray-700 mb-2">
+                          1. ¿Con qué frecuencia usas el correo electrónico?
+                        </p>
+                        <div className="space-y-1">
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="email_freq" value="diario" className="mr-2" />
+                            Diariamente
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="email_freq" value="semanal" className="mr-2" />
+                            Semanalmente
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="email_freq" value="rara vez" className="mr-2" />
+                            Raramente
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="email_freq" value="nunca" className="mr-2" />
+                            Nunca
+                          </label>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="text-sm font-medium text-gray-700 mb-2">
+                          2. ¿Qué nivel tienes en Microsoft Word?
+                        </p>
+                        <div className="space-y-1">
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="word_level" value="avanzado" className="mr-2" />
+                            Avanzado (fórmulas, macros, estilos complejos)
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="word_level" value="intermedio" className="mr-2" />
+                            Intermedio (formato, tablas, imágenes)
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="word_level" value="basico" className="mr-2" />
+                            Básico (escribir texto simple)
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="word_level" value="ninguno" className="mr-2" />
+                            Ninguno
+                          </label>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="text-sm font-medium text-gray-700 mb-2">
+                          3. ¿Sabes usar navegadores de internet?
+                        </p>
+                        <div className="space-y-1">
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="browser_skills" value="experto" className="mr-2" />
+                            Muy bien (pestañas, marcadores, extensiones)
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="browser_skills" value="intermedio" className="mr-2" />
+                            Bien (buscar información, enlaces)
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="browser_skills" value="basico" className="mr-2" />
+                            Poco (solo páginas conocidas)
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="browser_skills" value="nada" className="mr-2" />
+                            No sé usarlos
+                          </label>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="text-sm font-medium text-gray-700 mb-2">
+                          4. ¿Has descargado aplicaciones en tu celular?
+                        </p>
+                        <div className="space-y-1">
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="app_download" value="frecuente" className="mr-2" />
+                            Sí, frecuentemente
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="app_download" value="ocasional" className="mr-2" />
+                            Sí, ocasionalmente
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="app_download" value="ayuda" className="mr-2" />
+                            Solo con ayuda
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="app_download" value="nunca" className="mr-2" />
+                            Nunca
+                          </label>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="text-sm font-medium text-gray-700 mb-2">
+                          5. ¿Usas redes sociales?
+                        </p>
+                        <div className="space-y-1">
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="social_media" value="multiple" className="mr-2" />
+                            Varias (Facebook, Instagram, WhatsApp, etc.)
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="social_media" value="whatsapp" className="mr-2" />
+                            Solo WhatsApp
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="social_media" value="facebook" className="mr-2" />
+                            Solo Facebook
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="social_media" value="ninguna" className="mr-2" />
+                            Ninguna
+                          </label>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="text-sm font-medium text-gray-700 mb-2">
+                          6. ¿Has realizado compras en línea?
+                        </p>
+                        <div className="space-y-1">
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="online_shopping" value="frecuente" className="mr-2" />
+                            Sí, frecuentemente
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="online_shopping" value="ocasional" className="mr-2" />
+                            Sí, ocasionalmente
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="online_shopping" value="una vez" className="mr-2" />
+                            Solo una vez
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="online_shopping" value="nunca" className="mr-2" />
+                            Nunca
+                          </label>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="text-sm font-medium text-gray-700 mb-2">
+                          7. ¿Sabes hacer videollamadas?
+                        </p>
+                        <div className="space-y-1">
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="video_calls" value="experto" className="mr-2" />
+                            Sí, uso varias plataformas (Zoom, Meet, etc.)
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="video_calls" value="whatsapp" className="mr-2" />
+                            Solo por WhatsApp
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="video_calls" value="ayuda" className="mr-2" />
+                            Solo con ayuda
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="radio" name="video_calls" value="no" className="mr-2" />
+                            No sé hacer videollamadas
+                          </label>
+                        </div>
+                      </div>
+
+                      <div>
+                        <p className="text-sm font-medium text-gray-700 mb-2">
+                          8. ¿Qué dispositivos usas regularmente?
+                        </p>
+                        <div className="space-y-1">
+                          <label className="flex items-center text-sm">
+                            <input type="checkbox" name="devices" value="celular" className="mr-2" />
+                            Celular/Smartphone
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="checkbox" name="devices" value="computador" className="mr-2" />
+                            Computador/Laptop
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="checkbox" name="devices" value="tablet" className="mr-2" />
+                            Tablet
+                          </label>
+                          <label className="flex items-center text-sm">
+                            <input type="checkbox" name="devices" value="smart_tv" className="mr-2" />
+                            Smart TV
+                          </label>
+                        </div>
+                      </div>
+
+                      <button 
+                        type="submit"
+                        className="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200"
+                      >
+                        Enviar Diagnóstico
+                      </button>
+                    </form>
+                  </div>
+                </div>
+
+                {/* Bloque adicional con imagen de apoyo */}
+                <div className="bg-white rounded-lg shadow-sm overflow-hidden">
+                  <img 
+                    src="https://images.pexels.com/photos/5483077/pexels-photo-5483077.jpeg?auto=compress&cs=tinysrgb&w=400" 
+                    alt="Comunidad digital" 
+                    className="w-full h-32 object-cover"
+                  />
+                  <div className="p-4">
+                    <h3 className="font-semibold text-gray-900 mb-2">Únete al Cambio</h3>
+                    <p className="text-gray-600 text-sm mb-4">
+                      Participa en nuestro programa de inclusión digital y contribuye a una sociedad más equitativa.
+                    </p>
+                    <a 
+                      href="https://uniminuto0-my.sharepoint.com/:f:/g/personal/leonardo_mosquera_uniminuto_edu_co/EtRyE_OkTDtOoSMrxjGA3xsBioQNFG7Vb8Wt1YoHagwS8w?e=FnCeeU"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full bg-red-600 hover:bg-red-700 text-white font-medium py-2 px-4 rounded-lg transition-colors duration-200 block text-center"
+                    >
+                      Acceder a Recursos
+                    </a>
+                  </div>
+                </div>
+
+                {/* Panel de estadísticas */}
+                <div className="bg-emerald-50 rounded-lg p-4 border border-emerald-200">
+                  <h3 className="font-semibold text-emerald-800 mb-3">Impacto del Proyecto</h3>
+                  <div className="space-y-2 text-sm">
+                    <div className="flex justify-between">
+                      <span className="text-emerald-700">Familias beneficiadas:</span>
+                      <span className="font-medium text-emerald-800">15+</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-emerald-700">Horas de formación:</span>
+                      <span className="font-medium text-emerald-800">45</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="text-emerald-700">Competencias desarrolladas:</span>
+                      <span className="font-medium text-emerald-800">8</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    );
+  };
+
   if (vistaActual === 'detail' && moduloSeleccionado) {
+    // Si es el módulo 3, renderizar el layout especial del blog
+    if (moduloSeleccionado.id === 'modulo3') {
+      return renderBlogLayout();
+    }
+
     return (
       <section className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
