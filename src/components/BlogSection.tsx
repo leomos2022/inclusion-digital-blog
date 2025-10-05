@@ -396,9 +396,9 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
                   <div className="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
                     <h3 className="font-semibold text-blue-800 mb-4">Evidencias Fotográficas: Creación de Cuenta de Correo</h3>
                     <p className="text-blue-700 text-sm mb-4">
-                      Documentación visual del proceso de creación de cuenta de correo electrónico y primeros pasos en la comunicación digital.
+                      Documentación visual completa del proceso de creación de cuenta de correo electrónico, desde el registro inicial hasta la gestión avanzada de la bandeja de entrada.
                     </p>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                       <div className="bg-white rounded-lg overflow-hidden shadow-sm">
                         <img 
                           src="https://i.imgur.com/mTHHZJj.jpeg" 
@@ -432,10 +432,43 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
                           <p className="text-xs text-blue-600">Primer correo enviado</p>
                         </div>
                       </div>
+                      <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                        <img 
+                          src="https://i.imgur.com/HwRfb7K.jpeg" 
+                          alt="Evidencia 4: Verificación de cuenta de correo" 
+                          className="w-full h-32 object-cover"
+                        />
+                        <div className="p-2 text-center">
+                          <p className="text-sm font-medium text-blue-800">Evidencia 4</p>
+                          <p className="text-xs text-blue-600">Verificación de cuenta</p>
+                        </div>
+                      </div>
+                      <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                        <img 
+                          src="https://i.imgur.com/wLGUX7y.jpeg" 
+                          alt="Evidencia 5: Configuración avanzada de correo" 
+                          className="w-full h-32 object-cover"
+                        />
+                        <div className="p-2 text-center">
+                          <p className="text-sm font-medium text-blue-800">Evidencia 5</p>
+                          <p className="text-xs text-blue-600">Configuración avanzada</p>
+                        </div>
+                      </div>
+                      <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                        <img 
+                          src="https://i.imgur.com/fFw5sdE.jpeg" 
+                          alt="Evidencia 6: Gestión completa de bandeja de entrada" 
+                          className="w-full h-32 object-cover"
+                        />
+                        <div className="p-2 text-center">
+                          <p className="text-sm font-medium text-blue-800">Evidencia 6</p>
+                          <p className="text-xs text-blue-600">Gestión de bandeja</p>
+                        </div>
+                      </div>
                     </div>
                     <div className="mt-4 p-3 bg-green-100 rounded border border-green-200">
                       <p className="text-green-800 text-sm">
-                        <strong>✅ Evidencias completadas:</strong> Las fotografías del proceso de creación de cuenta de correo han sido documentadas exitosamente, mostrando cada paso del proceso de inclusión digital.
+                        <strong>✅ Evidencias completadas:</strong> Las 6 fotografías del proceso completo de creación y gestión de cuenta de correo han sido documentadas exitosamente, mostrando cada paso detallado del proceso de inclusión digital.
                       </p>
                     </div>
                   </div>
@@ -480,7 +513,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
                       <iframe
                         width="100%"
                         height="100%"
-                        src="https://www.youtube.com/embed/oi9woh5hQz8"
+                        src="https://www.youtube.com/embed/gPlhLZcJ4t0?start=345"
                         title="Tutorial Básico de Microsoft Word"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -491,7 +524,7 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
                   </div>
                   
                   <a 
-                    href="https://www.youtube.com/watch?v=oi9woh5hQz8" 
+                    href="https://www.youtube.com/watch?v=gPlhLZcJ4t0&t=345s" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-emerald-600 hover:text-emerald-700 font-medium"
@@ -515,12 +548,15 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
 
                 {/* Espacio para fotografías de evidencias */}
                 <div>
-                  <h3 className="font-semibold text-gray-900 mb-4">Evidencias fotográficas de la práctica</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                  <h3 className="font-semibold text-gray-900 mb-4">Evidencias Fotográficas Completas: Uso Básico de Microsoft Word</h3>
+                  <p className="text-gray-700 text-sm mb-4">
+                    Documentación visual completa del proceso de aprendizaje de Microsoft Word, desde la interfaz inicial hasta el guardado y gestión de documentos.
+                  </p>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                     <div className="bg-white rounded-lg overflow-hidden shadow-sm">
                       <img 
-                        src="https://www.solvetic.com/uploads/monthly_12_2018/tutorials-9832-0-84353800-1545132518.png" 
-                        alt="Captura 1: Interface inicial de Microsoft Word" 
+                        src="https://i.imgur.com/uM0QTwm.jpeg" 
+                        alt="Captura 1: Interface inicial de Microsoft Word - Proceso real de aprendizaje" 
                         className="w-full h-32 object-cover"
                       />
                       <div className="p-2 text-center">
@@ -548,6 +584,39 @@ const BlogSection: React.FC<BlogSectionProps> = ({ activeSection }) => {
                       <div className="p-2 text-center">
                         <p className="text-sm font-medium text-gray-800">Captura 3</p>
                         <p className="text-xs text-gray-600">Resultado final</p>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                      <img 
+                        src="https://i.imgur.com/HwRfb7K.jpeg" 
+                        alt="Captura 4: Herramientas de formato básico en Word" 
+                        className="w-full h-32 object-cover"
+                      />
+                      <div className="p-2 text-center">
+                        <p className="text-sm font-medium text-gray-800">Captura 4</p>
+                        <p className="text-xs text-gray-600">Herramientas de formato</p>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                      <img 
+                        src="https://i.imgur.com/XypeYOH.jpeg" 
+                        alt="Captura 5: Inserción de elementos en documento Word" 
+                        className="w-full h-32 object-cover"
+                      />
+                      <div className="p-2 text-center">
+                        <p className="text-sm font-medium text-gray-800">Captura 5</p>
+                        <p className="text-xs text-gray-600">Inserción de elementos</p>
+                      </div>
+                    </div>
+                    <div className="bg-white rounded-lg overflow-hidden shadow-sm">
+                      <img 
+                        src="https://i.imgur.com/oeReQs8.jpeg" 
+                        alt="Captura 6: Guardado y gestión de documentos en Word" 
+                        className="w-full h-32 object-cover"
+                      />
+                      <div className="p-2 text-center">
+                        <p className="text-sm font-medium text-gray-800">Captura 6</p>
+                        <p className="text-xs text-gray-600">Guardado de documentos</p>
                       </div>
                     </div>
                   </div>
