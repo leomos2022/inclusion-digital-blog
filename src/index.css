@@ -1,77 +1,229 @@
-@tailwind base;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');@tailwind base;
+
+
+
+@tailwind base;@tailwind components;
+
 @tailwind components;
-@tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@tailwind utilities;@tailwind base;@tailwind utilities;
 
-* {
+
+
+* {@tailwind components;
+
   font-family: 'Lato', arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
+
+  -webkit-font-smoothing: antialiased;@tailwind utilities;@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
   -moz-osx-font-smoothing: grayscale;
+
 }
 
-html {
+
+
+html {* {* {
+
   scroll-behavior: smooth;
+
+}  font-family: 'Lato', arial, sans-serif;  font-family: 'Lato', arial, sans-serif;
+
+
+
+.line-clamp-3 {  -webkit-font-smoothing: antialiased;  -webkit-font-smoothing: antialiased;
+
+  display: -webkit-box;
+
+  -webkit-line-clamp: 3;  -moz-osx-font-smoothing: grayscale;  -moz-osx-font-smoothing: grayscale;
+
+  -webkit-box-orient: vertical;
+
+  overflow: hidden;}}
+
 }
 
-.line-clamp-3 {
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
+
 
 /* Responsive font sizes matching the original CSS */
-@media (min-width: 768px) {
+
+@media (min-width: 768px) {html {html {
+
   .responsive-text {
-    font-size: 16px;
+
+    font-size: 16px;  scroll-behavior: smooth;  scroll-behavior: smooth;
+
   }
-}
+
+}}}
+
+
 
 @media (min-width: 1024px) {
+
   .responsive-text {
-    font-size: 16px;
-  }
-}
 
-/* Custom animations */
+    font-size: 16px;.line-clamp-3 {.line-clamp-3 {
+
+  }
+
+}  display: -webkit-box;  display: -webkit-box;
+
+
+
+/* Custom animations */  -webkit-line-clamp: 3;  -webkit-line-clamp: 3;
+
 @keyframes fadeIn {
-  from {
+
+  from {  -webkit-box-orient: vertical;  -webkit-box-orient: vertical;
+
     opacity: 0;
-    transform: translateY(20px);
+
+    transform: translateY(20px);  overflow: hidden;  overflow: hidden;
+
   }
-  to {
+
+  to {}}
+
     opacity: 1;
+
     transform: translateY(0);
+
   }
-}
 
-.animate-fade-in {
+}/* Responsive font sizes matching the original CSS *//* Responsive font sizes matching the original CSS */
+
+
+
+.animate-fade-in {@media (min-width: 768px) {@media (min-width: 768px) {
+
   animation: fadeIn 0.6s ease-out;
+
+}  .responsive-text {  .responsive-text {
+
+
+
+/* Smooth transitions for interactive elements */    font-size: 16px;    font-size: 16px;
+
+.transition-all {
+
+  transition-property: all;  }  }
+
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 300ms;}}
+
 }
 
-/* Smooth transitions for interactive elements */
-.transition-all {
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 300ms;
-}
+
 
 /* Custom focus styles */
-.focus-ring:focus {
+
+.focus-ring:focus {@media (min-width: 1024px) {@media (min-width: 1024px) {
+
   outline: none;
-  box-shadow: 0 0 0 3px rgba(8, 8, 8, 0.5);
+
+  box-shadow: 0 0 0 3px rgba(8, 8, 8, 0.5);  .responsive-text {  .responsive-text {
+
 }
+
+    font-size: 16px;    font-size: 16px;
 
 /* Hover effects for cards */
-.hover-lift:hover {
+
+.hover-lift:hover {  }  }
+
   transform: translateY(-4px);
-}
+
+}}}
+
+
 
 /* Gradient text effect */
+
 .gradient-text {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);/* Custom animations *//* Custom animations */
+
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+
+  -webkit-text-fill-color: transparent;@keyframes fadeIn {@keyframes fadeIn {
+
   background-clip: text;
-}
+
+}  from {  from {
+
+    opacity: 0;    opacity: 0;
+
+    transform: translateY(20px);    transform: translateY(20px);
+
+  }  }
+
+  to {  to {
+
+    opacity: 1;    opacity: 1;
+
+    transform: translateY(0);    transform: translateY(0);
+
+  }  }
+
+}}
+
+
+
+.animate-fade-in {.animate-fade-in {
+
+  animation: fadeIn 0.6s ease-out;  animation: fadeIn 0.6s ease-out;
+
+}}
+
+
+
+/* Smooth transitions for interactive elements *//* Smooth transitions for interactive elements */
+
+.transition-all {.transition-all {
+
+  transition-property: all;  transition-property: all;
+
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition-duration: 300ms;  transition-duration: 300ms;
+
+}}
+
+
+
+/* Custom focus styles *//* Custom focus styles */
+
+.focus-ring:focus {.focus-ring:focus {
+
+  outline: none;  outline: none;
+
+  box-shadow: 0 0 0 3px rgba(8, 8, 8, 0.5);  box-shadow: 0 0 0 3px rgba(8, 8, 8, 0.5);
+
+}}
+
+
+
+/* Hover effects for cards *//* Hover effects for cards */
+
+.hover-lift:hover {.hover-lift:hover {
+
+  transform: translateY(-4px);  transform: translateY(-4px);
+
+}}
+
+
+
+/* Gradient text effect *//* Gradient text effect */
+
+.gradient-text {.gradient-text {
+
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+  -webkit-background-clip: text;  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;  -webkit-text-fill-color: transparent;
+
+  background-clip: text;  background-clip: text;
+
+}}
